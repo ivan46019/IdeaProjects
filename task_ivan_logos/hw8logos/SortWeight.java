@@ -8,3 +8,4 @@ public class SortWeight implements Comparator<Product> {
         return (int) (o1.getWeight() - o2.getWeight());
     }
 }
+

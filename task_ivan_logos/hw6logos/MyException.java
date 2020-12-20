@@ -6,3 +6,5 @@ public class MyException extends Exception {
         super("Error : a > 0 і b > 0");
     }
 }
+
+
