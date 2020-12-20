@@ -1,0 +1,12 @@
+package task_ivan_logos.hw8logos;
+
+import java.util.Comparator;
+
+public class SortPrice implements Comparator<Product> {
+    @Override
+
+    public int compare(Product o1, Product o2) {
+
+        return (int) (o1.getPrice() - o2.getPrice());
+    }
+}
